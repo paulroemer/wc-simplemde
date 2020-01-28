@@ -57,7 +57,7 @@
 	</div>
 </template>
 <script>
-	const doc = (document._currentScript || document.currentScript).ownerDocument;
+	const doc = (document.currentScript || document._currentScript).ownerDocument;
 	class WCSimpleMDE extends HTMLElement {
 		static get observedAttributes() {return ['value']; }
 		constructor() {

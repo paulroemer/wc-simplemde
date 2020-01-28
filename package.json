@@ -1,6 +1,6 @@
 {
   "name": "wc-simplemde",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Web Component wrapper over simple mde ",
   "main": "index.js",
   "author": "Shridhar Deshmukh",
@@ -14,6 +14,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
+    "bower": "^1.8.8",
     "natives": "^1.1.6",
     "node-sass": "^4.10.0"
   }
